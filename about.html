@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>iCoder - Heaven</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+        .font-weight-bold {
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Write for us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            It all started with iCoder Idea.
+            <span class="text-body-secondary">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Our courses provide an immersive, outcomes-driven curriculum for
+            students looking to launch a career in Web-Development, Software Engineering,
+            Cybersecurity, Data Science, or Product Design. Courses are offered
+            both online and in-person on campuses across the country..
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img"
+            width="500"
+            height="350"
+            src="2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="mb-sm">
+        <header class="pb-xs text-center">
+          <h2 class="heading-50-black color-black font-weight-bold">
+            Our Values
+          </h2>
+        </header>
+      </div>
+
+      <div class="columns row justify-content-center">
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Make No Little Plans
+          </h3>
+          <p>
+            Build for scale, create for the future, and execute short-term goals
+            in view of long-term strategy.
+          </p>
+        </div>
+
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Nurture Difference
+          </h3>
+          <p>
+            Seek to understand and actively seek different opinions. Create
+            space for other voices to be heard.
+          </p>
+        </div>
+
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Be A Lifelong Learner
+          </h3>
+          <p>
+            Embrace a growth mindset and always be curious. Get comfortable with
+            being uncomfortable.
+          </p>
+        </div>
+
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Strive For Excellence
+          </h3>
+          <p>Drive results. Hold yourself and others accountable to goals.</p>
+        </div>
+
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Work Together
+          </h3>
+          <p>
+            Collaborate. Embrace transparency and empower others to succeed.
+          </p>
+        </div>
+
+        <!--Column Item-->
+        <div class="column-item col-lg-4 my-4">
+          <h3 class="heading-25-extrabold color-black font-weight-bold">
+            Radiate Positivity
+          </h3>
+          <p>Be kind, always! Have fun, and find something you love.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2024–2027 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    <script>
+      // Get the current URL path
+      const currentPath = window.location.pathname;
+
+      // Find all nav links
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+      // Loop through the nav links to find the one that matches the current URL
+      navLinks.forEach((link) => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active'); // Add 'active' class to the matching link
+        } else {
+          link.classList.remove('active'); // Remove 'active' class from non-matching links
+        }
+      });
+
+      // Handle dropdown menu
+      const dropdownLink = document.querySelector('.navbar-nav .dropdown-toggle');
+      if (dropdownLink) {
+        dropdownLink.addEventListener('click', () => {
+          dropdownLink.classList.add('active');
+        });
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-OERcA2FfnGQpPBvrSaXh6Z3Gp5B1ibAIl4e2xA1AarCzE9r7Pa9FDR5H1Jp4mf3b"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-HoA2niZpU5F9O7Qy59HVgHVlZImCrC8IB+KyyDPPk80MZ6Aoe9Z3oQ+MHTI0gu5"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
